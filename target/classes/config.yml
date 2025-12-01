@@ -1,0 +1,16 @@
+# NapCat (OneBot 11) WebSocket 地址
+# 如果 NapCat 在本地运行，端口通常是 3000 或 3001
+socket_url: "ws://127.0.0.1:3001"
+
+# Access Token (如果在 NapCat 中配置了)
+access_token: ""
+
+# 需要互通的 QQ 群号
+target_group_id: 1015912456
+
+# 消息格式
+format:
+  # 游戏内显示格式
+  qq_to_mc: "<gray>Q群: <white>[<aqua>%nickname%<white>]: "
+  # QQ群显示格式
+  mc_to_qq: "[%player%]: %message%"

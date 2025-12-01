@@ -1,0 +1,10 @@
+name: QQmcChatSync
+version: 1.0
+main: com.qcrtimo.qqmcchatsync.QQChatSync
+api-version: 1.21.8
+author: QcrTiMo
+description: QQ Group and Minecraft Chat Sync
+permissions:
+  qqchatsync.reload:
+    description: Allows reloading the config
+    default: op
